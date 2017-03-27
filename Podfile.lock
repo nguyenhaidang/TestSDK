@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - SDKTest (0.1.0):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - SDKTest (from `https://github.com/nguyenhaidang/SDKTest.git`)
+
+EXTERNAL SOURCES:
+  SDKTest:
+    :git: https://github.com/nguyenhaidang/SDKTest.git
+
+CHECKOUT OPTIONS:
+  SDKTest:
+    :commit: bcc0c41416aff751adaed9eabcbb2d89c601ecc4
+    :git: https://github.com/nguyenhaidang/SDKTest.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  SDKTest: 016bac3d9af6b1c4f1745dafcd5fee680b30401b
+
+PODFILE CHECKSUM: 3f7686187680a4ef4d148e384a645462b92487f0
+
+COCOAPODS: 1.2.0

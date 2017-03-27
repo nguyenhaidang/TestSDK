@@ -1,0 +1,28 @@
+{
+  "name": "SDKTest",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "summary": "Ban Test SDK",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "[name]": "[email]"
+  },
+  "homepage": "[homepage URL]",
+  "source": {
+    "git": "[git URL]",
+    "tag": "0.1.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  },
+  "source_files": "SDKTest/**/*.{h,m}",
+  "resources": "SDKTest/**/*.{png,jpeg,jpg,storyboard,xib}"
+}
